@@ -1,0 +1,29 @@
+body { font: 12px Arial;}
+
+path { 
+    stroke: rgb(224, 13, 13);
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {	
+    position: absolute;			
+    text-align: left;			
+    width: 160px;					
+    height: 50px;					
+    padding: 10px;				
+    font: 25px sans-serif;		
+    background: rgb(207, 73, 11);	
+    border: 2px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+

@@ -12,7 +12,7 @@ We have created four files:
     3. styles.css
     4. gdpesp.csv
 
-###1. index.html
+### 1. index.html
 
 - First let's create the basic HTML.
 
@@ -129,7 +129,7 @@ d3.csv("data.csv", function (error, data) {
         .attr("class", "line")
         .attr("d", valueline(data));
 ```
-- We add the scatterplot and set attributes and styles.
+- We add the dots and set attributes and styles. Besides, we set function "click", so that you can see the values on the right of the chart.
 ```javascript     
     svg.selectAll("dot")
         .data(data)

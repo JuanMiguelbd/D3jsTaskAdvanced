@@ -56,7 +56,7 @@ d3.csv("data.csv", function (error, data) {
         .attr("class", "line")
         .attr("d", valueline(data));
 
-    // Add the scatterplot
+    // Add the dots
     svg.selectAll("dot")
         .data(data)
         .enter().append("circle")
